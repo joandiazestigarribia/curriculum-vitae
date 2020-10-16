@@ -1,0 +1,76 @@
+.entry {
+    padding: 5px 5px 5px 5px;
+}
+
+a {
+    color: #555;
+    text-decoration: none;
+}
+
+a:hover {
+    font-weight: 400;
+    color: #333;
+    text-decoration: none;
+    text-shadow: 0.02em 0.02em 0.09em;
+}
+
+h1:hover {
+    color: #14d3e1;
+    transition: all .5s;
+    text-shadow: 0.05em 0.05em 0.07em #333;
+}
+
+h1 {
+    text-align: center;
+}
+
+span:hover {
+    color: #334452;
+    transition: all .5s;
+    text-shadow: 0.02em 0.02em 0.07e rgb(111, 111, 111);
+}
+
+#badge {
+    margin-left: 105px;
+}
+
+#perfil {
+    text-align: center;
+    padding-top: 15px;
+}
+
+@media print {
+    .no-printme {
+        display: none;
+    }
+    .printme {
+        display: block;
+    }
+}
+
+.floating-d {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+
+.floating-p {
+    position: fixed;
+    bottom: 55px;
+    right: 10px;
+}
+
+.badge {
+    text-transform: uppercase;
+}
+
+@media (max-width: 768px) {
+    .information {
+        margin-top: 25px;
+    }
+}
+
+.lenguages {
+    margin: 10px 5px 10px 5px;
+    margin-top: 10px;
+}
