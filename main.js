@@ -15,6 +15,11 @@ const experiencia = [
 
 const estudios = [
     {
+        lugar: "EducacionIT - digit@lers",
+        periodo: "2020 - Presente",
+        descripción: "Desarrollador fullstack en Java"
+    },
+    {
         lugar: "Universidad Nacional del Nordeste (UNNE)",
         periodo: "2014 - Presente",
         descripción: "Contador público"
